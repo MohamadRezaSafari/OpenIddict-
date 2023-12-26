@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Server.Dtos
+namespace Server.ViewModels.Authorization
 {
-    public class RegisterDto
+    public class RegisterViewModel
     {
         [Required]
         [EmailAddress]
